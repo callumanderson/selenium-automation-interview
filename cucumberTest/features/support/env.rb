@@ -2,6 +2,10 @@ require 'rubygems'
 require 'selenium-webdriver'
 require 'test/unit/assertions'
 
+browser = Selenium::WebDriver.for(:firefox) 
+
+World(Test::Unit::Assertions)
+
 #before all
 
 Before do
