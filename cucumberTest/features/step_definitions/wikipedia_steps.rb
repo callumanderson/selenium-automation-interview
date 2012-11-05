@@ -10,6 +10,5 @@ end
 
 Then /^the page title should be "(.+)"$/ do |title|
     pageTitle = @browser.find_element(:css, "title")
-    puts "Page title is #{pageTitle.text}"
-    puts "Page title is #{@browser.title}"
+    assert(pageTitle.text == title)
 end
