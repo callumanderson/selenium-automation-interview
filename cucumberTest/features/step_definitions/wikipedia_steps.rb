@@ -4,6 +4,12 @@
 
 #TODO: Write step definitions
 
-Given'I am on the Wikipedia Home Page' do
+Given 'I am on the Wikipedia Home Page' do
     @browser.get('http://wikipedia.org')
+end
+
+Then /^the page title should be "(.+)"$/ do |title|
+    pageTitle = @browser.find_element(:css, "title")
+    puts "Page title is #{pageTitle.text}"
+    puts "Page title is #{@browser.title}"
 end
