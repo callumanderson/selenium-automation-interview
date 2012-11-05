@@ -1,10 +1,10 @@
 README (Ruby Verison)
 
-The technologies used for htis techncial test are Ruby, Selenium and Cucumber.
+The technologies used for this techncial test are Ruby, Selenium and Cucumber.
 
-The first part of thsi test consists of a short exercise which should be answered using Ruby. You should use the provided file to write your answer to the question.  Be sure to run the solution a couple of times to confirm it works.
+The first part of this test consists of a short exercise which should be answered using Ruby. You should use the provided file to write your answer to the question.  Be sure to run the solution a couple of times to confirm it works.
 
-For the cucumber + Selenium portion of teh exercise, you have been supplied a lightweight test harness which you will be expected to use.
+For the cucumber + Selenium portion of the exercise, you have been supplied a lightweight test harness which you will be expected to use.
 
 The test uses the Wikipedia app to test against.  Although we would ideally write outside in TDD code in the production environment, you are asked to retrofit the tests to the running application code. This exercise is designed to test your technical knowledge rather than knowledge of processes and best practices.
 
