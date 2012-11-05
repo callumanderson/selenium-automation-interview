@@ -1,4 +1,6 @@
-require 'rspec/expectations'
+require 'rubygems'
+require 'selenium-webdriver'
+require 'test/unit/assertions'
 
 #before all
 
