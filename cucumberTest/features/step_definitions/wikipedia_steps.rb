@@ -15,8 +15,7 @@ end
 
 Then /^I should see the following languages$/ do |table|
     lang_list = table.raw
-    puts "lang list class is #{lang_list.class.name}"
     for i in 0..lang_list.length
-       puts lang_list[i]
+        @assert(browser.find_element(:link_text, lang_list[i]))
     end
 end
