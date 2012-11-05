@@ -3,3 +3,7 @@
 #refactor/fix then though :)
 
 #TODO: Write step definitions
+
+Given'I am on the Wikipedia Home Page' do
+    @browser.get('http://wikipedia.org')
+end
