@@ -10,12 +10,15 @@ The test uses the Wikipedia app to test against.  Although we would ideally writ
 
 All required dependencies are installed on the laptop for you. You are given a series of plain text scenarios describing some business rules. Some of these have already been mapped to test scripts, but others have not. You should write the test scripts for any scenarios that are not currently running and fix any broken scripts. The outcome should be that all the tests are passing.
 
-In case you are unfamiliar with Watir or Cucumber, I have provided a couple of cribsheets.
 
-Question 1. Fizbuzz.rb Write a program in Ruby that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+Question 1. (Fizbuzz.rb) 
+Write a program in Ruby that prints the numbers from 1 to 20. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
 
 Question 2. Cucumber + Selenium + Ruby
 
 Getting Started:
 
-    Clone the master from 
+1.    Clone the master from "https://github.com/callumanderson/selenium-automation-interview"
+2.    Run the tests from the cucumberTest directory by calling "cucumber"
+3.    Implement any pending scenarios and fix any failing scenarios 
+4.    Repeat steps 2 & 3 until all scenarios are passing
